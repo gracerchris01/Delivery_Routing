@@ -11,6 +11,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { UserdashboardComponent } from './components/userdashboard/userdashboard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LandingComponent } from './components/landing/landing.component';
     DashboardComponent,
     SidebarComponent,
     HomepageComponent,
-    LandingComponent
+    LandingComponent,
+    UserdashboardComponent
   ],
   imports: [
     BrowserModule,
